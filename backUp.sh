@@ -25,5 +25,5 @@ fi
 tar -tzf "$BACKUP_DIR/$ARCHIVE_NAME"
 
 # Удаление старых архивов (старше 7 дней)
-find "$BACKUP_DIR" -type f -name "access_logs_*.tar.gz" -mtime +7 -exec rm {} \;
+find "$BACKUP_DIR" -type f -name "access_logs_*.tar.gz" -mtime +3 -exec rm {} \;
 echo "🗑️  Старые архивы (старше 7 дней) удалены"
