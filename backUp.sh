@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Директория с логами (измените на свою)
-LOG_DIR="/var/log/nginx"
+LOG_DIR="/var/log/httpd/access_log"
 BACKUP_DIR="/var/log/nginx/backup"
 
 # Создание папки для бэкапов, если её нет
